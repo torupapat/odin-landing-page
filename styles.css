@@ -32,12 +32,35 @@ a#h-link {
 .top-content {
     display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
 }
 
 .welcome-text {
 
 }
 
+.welcome-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    text-wrap: wrap;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-wrap: wrap;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+    width: 500px;
+}
+
 .top-button {
-    
+
 }
