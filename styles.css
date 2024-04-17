@@ -12,7 +12,7 @@ a#h-link {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
 }
@@ -21,22 +21,32 @@ a#h-link {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
+    margin-left: 200px;
 }
 
 .header-link {
     display: flex;
     list-style-type: none;
     gap: 16px;
+    margin-right: 200px;
 }
 
 .top-content {
     display: flex;
     background-color: #1f2937;
     justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .welcome-text {
-
+    margin-left: 200px;
+    margin-right: auto;
+    padding: 24px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
 }
 
 .welcome-text h1 {
@@ -44,12 +54,14 @@ a#h-link {
     font-weight: 900;
     color: #f9faf8;
     text-wrap: wrap;
+    margin-bottom: auto;
 }
 
 .welcome-text p {
     font-size: 18px;
     color: #e5e7eb;
     text-wrap: wrap;
+    margin-top: auto;
 }
 
 .img-placeholder {
@@ -59,8 +71,16 @@ a#h-link {
     background-color: gray;
     height: 200px;
     width: 500px;
+    margin-right: 200px;
+    margin-left: auto;
 }
 
-.top-button {
-
+#top-button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 12px 48px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: transparent;
 }
