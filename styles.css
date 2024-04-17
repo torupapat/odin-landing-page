@@ -151,3 +151,48 @@ a#h-link {
     font-weight: 600;
     text-align: right;
 }
+
+.fourth-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner {
+    background-color: #3882f6;
+    display: flex;
+    gap: 100px;
+    padding: 25px 250px;
+    border-radius: 8px;
+    color: white;
+}
+
+.inner-text #one {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.inner-text #two {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#bot-button {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 12px 48px;
+    align-self: center;
+}
+
