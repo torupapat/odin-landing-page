@@ -88,8 +88,8 @@ a#h-link {
 .info-title {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -97,23 +97,24 @@ a#h-link {
 
 .second-container {
     display: flex;
-    justify-content: space-evenly;
-    gap: 32px;
+    justify-content: center;
+    gap: 50px;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100px;
 }
 
 .info {
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
     border: #3882f6;
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 16px;
 }
 
